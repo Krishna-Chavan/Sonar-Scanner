@@ -3,4 +3,10 @@
   <groupId>com.brillio</groupId>
   <artifactId>SonaeQubeScanner</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <properties>
+  	<maven.compiler.source>1.8</maven.compiler.source>
+  	<maven.compiler.target>1.8</maven.compiler.target>
+    <sonar.projectBaseDir>..</sonar.projectBaseDir>
+    <sonar.sources>../src/main/java,pom.xml</sonar.sources>
+</properties>
 </project>
